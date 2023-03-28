@@ -1,0 +1,45 @@
+* {
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+.menu {
+    display: inline-block;
+}
+body {
+    background-color: purple;
+}
+.main-nav {
+    margin: 0;
+    list-style: none;
+    padding-left: 0;
+    height: 30px;
+    background-color: black;
+}
+.menu a {
+    color: white;
+    text-decoration: none;
+    padding: 10px;
+}
+.menu a:hover {
+    color: blue;
+}
+.menu a:active {
+    color: red;
+}
+.menu a::after {
+    content: " | ";
+}
+main {
+    list-style: none;
+    padding: 20px 35px;
+    text-decoration: none;
+    border: solid black;
+}
+.main-fotos {
+    text-decoration: none;
+    list-style: none;
+}
+.videos {
+    list-style: none;
+}
