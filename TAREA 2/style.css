@@ -1,0 +1,68 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    font-size: 62.5%;
+}
+
+.main-nav {
+    font-size: 6.5rem;
+    display: flex;
+    justify-content: end;
+    background-color: purple;
+}
+.main-nav li {
+    display: inline-block;
+    padding: 0 2rem;
+    
+}
+.main-nav a {
+    color: white;
+    text-decoration: none;
+    font-size: 2.5rem;
+}
+.main-nav a:hover {
+    color: red;
+}
+.main-nav a:active {
+    color: green;
+}
+.main-nav img {
+    min-width: 8rem;
+    height: 3rem;
+    display: flex;
+    position: relative;
+    right: 69rem;
+}
+.side-menu {
+    font-size: 3rem;
+    background-color: pink;
+    position: absolute;
+    min-width: 18rem;
+    max-width: 18rem;
+    min-height: 57.8rem;
+    justify-content: center;
+}
+
+.box {
+    background-color: palevioletred;
+    border-radius: 1rem;
+    margin-top: 3.6rem;
+    min-height: 10rem;
+    margin-left: 1rem;
+    margin-right: 1rem;
+}
+.right-menu {
+    font-size: 2rem;
+    background-color: grey;
+    min-height: 57.8rem;
+    display: flex;
+    justify-content: center;
+    padding-left: 25rem;
+    
+}
+footer {
+   font-size: 1.5rem;
+   background-color: blue;
+   color: white;
+}
