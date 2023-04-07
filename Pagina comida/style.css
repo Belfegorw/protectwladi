@@ -1,0 +1,33 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-size: 62.5%;
+}   
+body {
+    background-color: black;
+}
+
+.main-nav {
+    font-size: 5rem;
+    background-color: white;
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    margin: 0 10%;
+    border-radius: 0.5rem;
+
+}
+.nav a {
+    color: purple;
+    text-decoration: none;
+    padding: 0 2rem;
+    
+}       
+.main-nav img{
+    height: 9.5rem;
+    width: 10rem;
+    position: flex;
+    margin: 0 45%;
+
+}   
