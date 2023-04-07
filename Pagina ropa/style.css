@@ -4,30 +4,103 @@
     box-sizing: border-box;
     font-size: 62.5%;
 }   
+
 body {
     background-color: black;
+    position: relative;
+    
 }
 
+/* AQUI VA EL NAV*/
+
 .main-nav {
-    font-size: 5rem;
     background-color: white;
     display: flex;
     flex-direction: column;
     text-align: center;
-    margin: 0 10%;
-    border-radius: 0.5rem;
+    margin: 2% 8%;
+    border-radius: 1.5rem;
 
 }
-.nav a {
-    color: purple;
-    text-decoration: none;
-    padding: 0 2rem;
+.nav li a {
+   background-color: black;
+   color: white;
+   text-decoration: none;
+   padding: 1rem 1.5rem;
+   display: block;
+   padding: 1rem 4rem;
+   
+
     
-}       
+    
+}
+.nav li a:hover {
+    color: silver;
+}
+.nav li a:active {
+    color: gold;
+}
 .main-nav img{
-    height: 9.5rem;
-    width: 10rem;
+    height: 20%;
+    width: 20%;
     position: flex;
-    margin: 0 45%;
+    margin: 2.5% 44.3%;
+    background-color: none;
+    
+
 
 }   
+ul, ol {
+    list-style: none;
+}
+.nav > li {
+    float: left;
+}
+.nav {
+    font-size: 3rem;
+    display: inline-block;
+    margin:auto;
+    justify-content: center;
+    text-align: center;
+    
+}
+.nav li ul {
+    display:none;
+    position: absolute;
+    min-width: 10REM;
+    font-size: 3rem;
+}
+.nav li:hover > ul {
+    display: block;
+}
+/* AQUI ABAJO VA EL MAIN*/
+.main {
+    background-color: white;
+    font-size: 5rem ;
+    margin: 3% 6%;
+    border-radius: 0.5rem;
+    text-align: center;
+}
+.ul {
+    column-count:2;
+}
+.ul img {
+  
+  width: 80%;
+}
+figcaption {
+    width: 20%;
+    border: solid;
+    background-color: whitesmoke; 
+    padding: 0% 49.2%;
+    
+}
+.sec1 {
+    background-color: black;
+    margin: 0 4rem;
+    padding-top: 2.5rem;
+    display: relative;
+    
+}
+
+
