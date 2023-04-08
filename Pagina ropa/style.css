@@ -29,10 +29,6 @@ body {
    padding: 1rem 1.5rem;
    display: block;
    padding: 1rem 4rem;
-   
-
-    
-    
 }
 .nav li a:hover {
     color: silver;
@@ -44,7 +40,7 @@ body {
     height: 20%;
     width: 20%;
     position: flex;
-    margin: 2.5% 44.3%;
+    margin: 2.5% 43.3%;
     background-color: none;
     
 
@@ -73,34 +69,96 @@ ul, ol {
 .nav li:hover > ul {
     display: block;
 }
+.checkbtn {
+    font-size: 3rem;
+    color:black;
+    float: right;
+    margin-right: 1rem;
+    cursor: pointer;
+    display: none;
+}
+#check{
+    display: none;
+}
+
+@media ( max-width: 575px) {
+    .checkbtn{
+        display: block;
+    }
+    .nav {
+        position: fixed;
+        width: 60%;
+        height: 100vh;
+        background-color: black;
+        left: -100vh;
+        top: 0;
+        transition: all .5s;
+    }
+    .main-nav img{
+        height: 20%;
+        width: 20%;
+        position: flex;
+        margin: 2.5% 43.3%;
+        background-color: none;
+        
+}
+div ul li {
+display: block;
+line-height: 4rem;
+margin: 0rem 0;
+}
+div ul li a {
+    font-size: 2rem;
+}
+li a:hover, li a:active {
+    background: black;
+    color: red;
+}
+#check:checked ~ul {
+    left: 0;
+}
+}
 /* AQUI ABAJO VA EL MAIN*/
 .main {
     background-color: white;
-    font-size: 5rem ;
-    margin: 3% 6%;
+    font-size: 9vw ;
+    margin: 3% 4%;
     border-radius: 0.5rem;
     text-align: center;
+    padding-bottom: 20vh;
 }
 .ul {
-    column-count:2;
+    column-count:3;
 }
 .ul img {
   
   width: 80%;
 }
 figcaption {
-    width: 20%;
-    border: solid;
-    background-color: whitesmoke; 
-    padding: 0% 49.2%;
+    color: white;
     
 }
+
 .sec1 {
+    margin: 1% 3%;
     background-color: black;
-    margin: 0 4rem;
-    padding-top: 2.5rem;
-    display: relative;
+
     
 }
+footer {
+    display: flex;
+    margin: 2% 35% 2% ;
+    
+}
+.fot{
+    font-size: 7vw;
+    display: inline-block;
+    margin:auto;
+    justify-content: center;
+    text-align: center;
+    
+}
+
+   
 
 
